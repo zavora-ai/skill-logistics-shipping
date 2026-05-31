@@ -1,36 +1,9 @@
 ---
 name: logistics-shipping
 description: Orchestrate logistics across ShipEngine, Shippo, Sendy (Africa), and Google Maps — create shipments, compare carrier rates, track packages, optimize routes, validate addresses, and generate labels. Use when shipping orders, tracking packages, comparing carrier rates, optimizing delivery routes, validating addresses, or estimating delivery times.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-logistics server connected. Optional: mcp-erp for order fulfillment, mcp-notifications for delivery alerts, mcp-email for shipping confirmations.
-allowed-tools:
-  - create_shipment
-  - list_shipments
-  - get_shipment
-  - cancel_shipment
-  - get_rates
-  - compare_rates
-  - list_carriers
-  - book_rate
-  - track_shipment
-  - get_tracking_events
-  - generate_label
-  - get_label
-  - validate_address
-  - optimize_route
-  - get_eta
-  - get_distance
-tags:
-  - business
-  - logistics
-  - shipping
-  - fulfillment
-  - tracking
-  - carriers
-references:
-  - references/tool-sequences.md
-  - references/examples.md
+allowed-tools: [create_shipment, list_shipments, get_shipment, cancel_shipment, get_rates, compare_rates, list_carriers, book_rate, track_shipment, get_tracking_events, generate_label, get_label, validate_address, optimize_route, get_eta, get_distance]
 metadata:
   author: Zavora AI
   mcp-server: mcp-logistics
